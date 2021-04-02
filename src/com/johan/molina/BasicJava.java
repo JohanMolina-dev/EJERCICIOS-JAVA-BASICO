@@ -11,21 +11,43 @@ public class BasicJava {
         menores o iguales.
          */
 
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            getNumbers("¡¡Bienvenido Al sistema de comparación numerica!!", "Ingrese el primer valor a comprar:");
-            int numero1 = scanner.nextInt();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        boolean esUnNumero;
+        String numero1;
+        String numero2;
+        int valor1 = 0;
+        int valor2 = 0;
+        do {
+            getNumbers("¡¡Bienvenido Al sistema de comparación numérica!!", "Ingrese el primer valor a comprar:");
+
+            numero1 = scanner.next();
             printV1("Ingrese el segundo  valor a comprar :");
-            int numero2 = scanner.nextInt();
-            printV2(numero1, numero2);
+            numero2 = scanner.next();
+            if (compararValores(numero1, numero2)) {
+                valor1 = Integer.parseInt(numero1);
+                valor2 = Integer.parseInt(numero2);
+                esUnNumero = true;
+            } else {
+                printV1("¡¡INGRESE \n VALORES\n VALIDOS!!");
 
-            mayorOEquals(numero1, numero2);
+                esUnNumero = false;
+            }
 
-            getNumbers("Valor 1 = " + numero1, "Valor 2 = " + numero2);
-        }
+
+        } while (!esUnNumero);
+        mayorOEquals(valor1, valor2);
+        printV2(valor1, valor2);
+
+        getNumbers("Valor 1 = " + numero1, "Valor 2 = " + numero2);
+    }
+
+    private static boolean compararValores(String numero1, String numero2) {
+        return numero1.matches("[0-9]*") && numero2.matches("[0-9]*");
+    }
 
     private static void printV2(int numero1, int numero2) {
-        System.out.println("Sus valores ingresados fueron: PRIMER VALOR = " + numero1 + "SEGUNDO VALOR = " + numero2);
+        System.out.println("Sus valores ingresados fueron: PRIMER VALOR = " + numero1 + " SEGUNDO VALOR = " + numero2);
     }
 
     private static void printV1(String s) {
@@ -37,13 +59,13 @@ public class BasicJava {
         printV1(s2);
     }
 
-    private static void mayorOEquals(int numero1, int numero2) {
+    private static void mayorOEquals(int valor1, int valor2) {
 
-            if(numero1 == numero2)
-                printV1("Ambos valores numericos son iguales");
-            else if(numero1 > numero2)
-                printV1("El primero valor es Mayor que el segundo valor");
-            else printV1("El primer valor es menor al segundo valor");
+        if (valor1 == valor2)
+            printV1("Ambos valores numéricos son iguales");
+        else if (valor1 > valor2)
+            printV1("El primero valor es Mayor que el segundo valor");
+        else printV1("El primer valor es menor al segundo valor");
     }
 }
 

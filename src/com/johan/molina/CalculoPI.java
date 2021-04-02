@@ -12,19 +12,46 @@ import java.util.Scanner;
 public class CalculoPI {
 
     public static void main(String[] args) {
+        boolean esUnNumero;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingresa el radio de tu circulo para calcular su area :)");
+        do {
+            mensaje("Ingresa el radio de tu circulo para calcular su area :)");
+            String radio = scanner.next();
+            if (compararValores(radio)){
+                esUnNumero = validacionParseD(radio);
+            }
+            else{
+                mensaje("Numero invalido!!");
+                esUnNumero = false;
+            }
 
-        double radio = scanner.nextDouble();
 
-        getArea(radio);
+
+
+
+        }while (!esUnNumero);
+
 
 
     }
 
-    private static void getArea(double radio) {
-        double areaCirculo =  Math.pow(radio,2) * Math.PI;
-        System.out.println("El area de tu circulo es : " + areaCirculo);
+    private static boolean validacionParseD(String radio) {
+        double radioDouble = Double.parseDouble(radio);
+        getArea(radioDouble);
+        return true;
+    }
+
+    private static boolean compararValores(String radio) {
+        return radio.matches("[0.0-9.9]*") || radio.matches("[0-9]*");
+    }
+
+    private static void getArea(double radioDouble) {
+        double areaCirculo =  Math.pow(radioDouble,2) * Math.PI;
+        mensaje("El area de tu circulo es : " + areaCirculo);
+    }
+
+    private static void mensaje(String s) {
+        System.out.println(s);
     }
 }
