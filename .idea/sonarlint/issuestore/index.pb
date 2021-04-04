@@ -13,3 +13,11 @@ S
 #src/com/johan/molina/DiaSemana.java,1\9\198c3fef99c88ca5bd0ba5a3472fa3717db3e26f
 U
 %src/com/johan/molina/ModMensajes.java,3\4\348149d62722d8051e6df0fda6dc021b161368b1
+V
+&src/com/johan/molina/SerieNumeros.java,b\9\b9ae8f2f07a758bfdc1ac20497bb807d60c3201c
+U
+%src/com/johan/molina/GestionCine.java,a\0\a055555c2fe254449a5820dcd6288b87c8dba5a3
+N
+src/com/johan/molina/Main.java,d\a\da51742f61c096f754ec559a5da071680821f71a
+Q
+!src/com/johan/molina/Persona.java,a\b\ab80ba2fdfa6905dbfda17e7430356359d6b1f6b

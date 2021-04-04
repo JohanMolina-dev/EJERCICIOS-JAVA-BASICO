@@ -1,6 +1,10 @@
 
-e
-java:S5361%"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÿ¢ş8î°Ñ†‰/
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8…Ò¾†‰/
+T
+java:S6126"2Replace this String concatenation with Text block.(ƒÜñ‘ÿÿÿÿÿ8‚ıµš‰/
 j
-java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¬šú§ÿÿÿÿÿ8ˆ­Ó†‰/
+java:S5361~"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¬šú§ÿÿÿÿÿ8²Îé™‰/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8‚ıµš‰/
+e
+java:S5361q"HReplace this call to "replaceAll()" by a call to the "replace()" method.(İè­ª8…õ‰/
+f
+java:S5361‰"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÿ¢ş8²Îé™‰/

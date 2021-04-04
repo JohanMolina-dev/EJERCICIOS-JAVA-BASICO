@@ -1,5 +1,5 @@
 
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8‘òí…‰/
 C	java:S131""Add a default case to this switch.(ë•¾Ôüÿÿÿÿ8¦Òã…‰/
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8‘òí…‰/
 j
 java:S5361."HReplace this call to "replaceAll()" by a call to the "replace()" method.(œ‚û²ýÿÿÿÿ8‘òí…‰/

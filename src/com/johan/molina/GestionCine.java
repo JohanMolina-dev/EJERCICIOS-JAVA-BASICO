@@ -41,9 +41,11 @@ public class GestionCine {
                 break;
             case 8:
                 salir =true;
+                mensaje("Chao");
                 break;
             default:
                 mensaje("Ingrese un opción Valida");
+                salir=false;
                 break;
         }
         return salir;
