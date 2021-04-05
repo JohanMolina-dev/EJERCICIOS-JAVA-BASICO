@@ -1,0 +1,27 @@
+
+…
+java:S1192"bDefine a constant instead of duplicating this literal " Valor consumo del articulo = â‚¬" 3 times.(ë‡Ôÿÿÿÿÿ8ï¶á‚Š/
+L
+java:S3740s"/Provide the parametrized type for this generic.(­€‰Œ8ÅÎ €Š/
+i
+java:S1192"GDefine a constant instead of duplicating this literal "BLANCO" 3 times.(ŞŠ¤‚ùÿÿÿÿ8©­à€Š/
+L
+java:S3740s"/Provide the parametrized type for this generic.(­€‰Œ8äî¡ğ‰/
+Z	java:S106d"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8ÅÎ €Š/
+L
+java:S3740r"/Provide the parametrized type for this generic.(ÓêœŸ8ÅÎ €Š/
+M
+java:S3740…"/Provide the parametrized type for this generic.(ÛÊŠÊ8ÅÎ €Š/
+ƒ
+java:S1192"`Define a constant instead of duplicating this literal " Precio base del articulo:  â‚¬" 3 times.(ë‡Ôÿÿÿÿÿ8ï¶á‚Š/
+x
+java:S1192"UDefine a constant instead of duplicating this literal "Valor por Kilos: â‚¬" 3 times.(ë‡Ôÿÿÿÿÿ8ï¶á‚Š/
+L
+java:S3740"/Provide the parametrized type for this generic.(œÍ·¥8·Ş£ğ‰/
+_
+java:S1226›"AIntroduce a new variable instead of reusing the parameter "peso".(Š ’¶8ÅÎ €Š/
+s	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñŸò†øÿÿÿÿ8ÅÎ €Š/
+Y	java:S125Ì"<This block of commented-out lines of code should be removed.(ö‹“ï8â¢‚Š/
+x	java:S116"WRename this field "LIST_COLORES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞŠ¤‚ùÿÿÿÿ8·˜Õî‰/
+w
+java:S1192"TDefine a constant instead of duplicating this literal " Precio final = â‚¬" 3 times.(ë‡Ôÿÿÿÿÿ8ï¶á‚Š/

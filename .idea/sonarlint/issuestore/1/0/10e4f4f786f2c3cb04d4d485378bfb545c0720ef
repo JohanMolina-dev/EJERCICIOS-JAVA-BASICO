@@ -1,0 +1,20 @@
+
+N
+java:S1172‰"+Remove this unused method parameter "edad".(ëôëÛüÿÿÿÿ8âÜú¿‰/
+N
+java:S1172"+Remove this unused method parameter "sexo".(¹Òßéüÿÿÿÿ8ßåì¿‰/
+†
+java:S1488ª"cImmediately return this expression instead of assigning it to the temporary variable "numeroDeDNI".(×Ğà™ûÿÿÿÿ8‚âñÄ‰/
+V	java:S106’"9Replace this use of System.out or System.err by a logger.(Å“éî8ÏÖÌ«‰/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚É¿¨8à÷ìÕ‰/
+
+java:S1488Ÿ"cImmediately return this expression instead of assigning it to the temporary variable "numeroDeDNI".(’ÙØ¡8‚âñÄ‰/
+o	java:S116
+"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿”±åúÿÿÿÿ8çû«‰/
+}
+java:S1149¤"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì››‘8‚âñÄ‰/
+_
+java:S1126Š"AReplace this if-then-else statement by a single return statement.(õÿë“8ŸÂ«‰/
+L
+java:S2140³")Use "java.util.Random.nextInt()" instead.(»Ì‰ úÿÿÿÿ8š’ğÄ‰/
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8š“ŠÍ‰/

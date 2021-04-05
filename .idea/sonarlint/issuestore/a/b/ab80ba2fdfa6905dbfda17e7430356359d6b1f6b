@@ -1,5 +1,0 @@
-
-U	java:S106h"9Replace this use of System.out or System.err by a logger.(Å“éî8ÏÖÌ«‰/
-^
-java:S1126`"AReplace this if-then-else statement by a single return statement.(õÿë“8ŸÂ«‰/
-o	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿”±åúÿÿÿÿ8çû«‰/

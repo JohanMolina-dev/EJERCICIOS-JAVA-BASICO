@@ -17,7 +17,11 @@ V
 &src/com/johan/molina/SerieNumeros.java,b\9\b9ae8f2f07a758bfdc1ac20497bb807d60c3201c
 U
 %src/com/johan/molina/GestionCine.java,a\0\a055555c2fe254449a5820dcd6288b87c8dba5a3
-N
-src/com/johan/molina/Main.java,d\a\da51742f61c096f754ec559a5da071680821f71a
 Q
-!src/com/johan/molina/Persona.java,a\b\ab80ba2fdfa6905dbfda17e7430356359d6b1f6b
+!src/Person/johan/molina/Main.java,8\0\80c41388cd614349f757b5940cb79e6f5d9ea4ea
+T
+$src/Person/johan/molina/Persona.java,1\0\10e4f4f786f2c3cb04d4d485378bfb545c0720ef
+V
+&src/com/electro/johan/molina/Main.java,f\4\f486cf116761baba8f4812d97c41d57aec940739
+b
+2src/com/electro/johan/molina/Electrodomestico.java,1\5\15f8fdf1eda037fef901986f8017860b385c66d3
