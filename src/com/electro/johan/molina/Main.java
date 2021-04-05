@@ -11,10 +11,24 @@ public class Main {
 
     public static void main(String[] args) {
 
+        /*
         Lavadora lavadora;
-        lavadora = new Lavadora(900,"GRIS", 'A', 34,5);
+        lavadora = new Lavadora(900,"GRIS", 'F', 2,10);
         lavadora.precioFinal();
         lavadora.mensaje(lavadora.toString());
+         */
+
+        Television tv;
+        tv = new Television(300,"NEGRO",'C',20,50,true);
+        tv.precioFinal();
+        tv.mensaje(tv.toString());
+
+        Electrodomestico electrodomestico;
+        electrodomestico = new Electrodomestico(190,"RoJo",
+                'B',80);
+
+        electrodomestico.mensaje("Electrodomestico # 1: "+electrodomestico.toString());
+
 
 
 
